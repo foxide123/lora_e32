@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "lora_e32.h": "c",
+        "stdio.h": "c"
+    }
+}
