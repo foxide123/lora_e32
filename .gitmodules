@@ -1,3 +1,9 @@
 [submodule "components/lora/unity"]
 	path = components/lora/unity
 	url = https://github.com/ThrowTheSwitch/Unity.git
+[submodule "external/esp-zigbee-sdk"]
+	path = external/esp-zigbee-sdk
+	url = https://github.com/espressif/esp-zigbee-sdk
+[submodule "external/fff"]
+	path = external/fff
+	url = https://github.com/meekrosoft/fff
