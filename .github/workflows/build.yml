@@ -1,4 +1,4 @@
-name: Dynatrace UFO CI
+name: Lora_E32 workflow
 on:
   push:
     branches: [ master ]
@@ -27,6 +27,7 @@ jobs:
       uses: espressif/esp-idf-ci-action@main
       with:
         esp_idf_version: v5.2.2
+        target: esp32s3
         path: '.'
         
     - name: List build artefacts
