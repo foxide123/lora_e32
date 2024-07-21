@@ -1,0 +1,41 @@
+name: Dynatrace UFO CI
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+    
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'
+    
+    - name: Output results
+      run: |
+        ls -l
+
+    - name: esp-idf build
+      uses: espressif/esp-idf-ci-action@main
+      with:
+        esp_idf_version: v5.2.2
+        path: '.'
+        
+    - name: List build artefacts
+      run: |
+        ls -l build/
+    
+    - name: Store Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: lora_e32.bin 
+        path: |
+          build/lora_e32.bin

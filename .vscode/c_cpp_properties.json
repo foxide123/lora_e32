@@ -4,7 +4,9 @@
         "name": "ESP-IDF",
         "includePath": [
           "${workspaceFolder}/**",
-          "${env:IDF_PATH}/components/**/include"
+          "${env:IDF_PATH}/components/**/include",
+          "${env:IDF_PATH}/components/**/unity/unity/src",
+          "${env:IDF_PATH}/components/**/unity/**"
         ],
         "defines": [
           "ESP_PLATFORM",

@@ -34,6 +34,7 @@
 /home/ubuntu/esp32/lora_e32/build/esp-idf/wpa_supplicant/libwpa_supplicant.a
 /home/ubuntu/esp32/lora_e32/build/esp-idf/esp_coex/libesp_coex.a
 /home/ubuntu/esp32/lora_e32/build/esp-idf/esp_wifi/libesp_wifi.a
+/home/ubuntu/esp32/lora_e32/build/esp-idf/bt/libbt.a
 /home/ubuntu/esp32/lora_e32/build/esp-idf/unity/libunity.a
 /home/ubuntu/esp32/lora_e32/build/esp-idf/cmock/libcmock.a
 /home/ubuntu/esp32/lora_e32/build/esp-idf/console/libconsole.a
@@ -64,4 +65,6 @@
 /home/ubuntu/esp32/lora_e32/build/esp-idf/usb/libusb.a
 /home/ubuntu/esp32/lora_e32/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /home/ubuntu/esp32/lora_e32/build/esp-idf/lora/liblora.a
+/home/ubuntu/esp32/lora_e32/build/esp-idf/wifi/libwifi.a
+/home/ubuntu/esp32/lora_e32/build/esp-idf/bluetooth_le/libbluetooth_le.a
 /home/ubuntu/esp32/lora_e32/build/esp-idf/main/libmain.a

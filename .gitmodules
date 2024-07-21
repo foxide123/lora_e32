@@ -1,9 +1,3 @@
-[submodule "components/lora/fff"]
-	path = components/lora/fff
-	url = https://github.com/meekrosoft/fff.git
 [submodule "components/lora/unity"]
 	path = components/lora/unity
 	url = https://github.com/ThrowTheSwitch/Unity.git
-[submodule "components/fff"]
-	path = components/fff
-	url = https://github.com/meekrosoft/fff.git

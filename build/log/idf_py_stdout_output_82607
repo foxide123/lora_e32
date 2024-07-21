@@ -1,0 +1,25 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/ubuntu/esp32/lora_e32/build/bootloader/esp-idf/esptool_py && /home/ubuntu/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/ubuntu/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/ubuntu/esp32/lora_e32/build/bootloader/bootloader.bin
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from /home/ubuntu/esp32/lora_e32/main/main.c:5:
+/home/ubuntu/esp32/lora_e32/components/wifi/include/wifi_scan.h:1:13: warning: 'print_auth_mode' declared 'static' but never defined [-Wunused-function]
+    1 | static void print_auth_mode(int authmode);
+      |             ^~~~~~~~~~~~~~~
+/home/ubuntu/esp32/lora_e32/components/wifi/include/wifi_scan.h:2:13: warning: 'print_cipher_type' declared 'static' but never defined [-Wunused-function]
+    2 | static void print_cipher_type(int pairwise_cipher, int group_cipher);
+      |             ^~~~~~~~~~~~~~~~~
+/home/ubuntu/esp32/lora_e32/components/wifi/include/wifi_scan.h:3:13: warning: 'wifi_scan' declared 'static' but never defined [-Wunused-function]
+    3 | static void wifi_scan(void);
+      |             ^~~~~~~~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable lora_e32.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/ubuntu/esp32/lora_e32/build/lora_e32.bin
+[7/7] cd /home/ubuntu/esp32/lora_e32/build/esp-idf/esptool_py && /home/ubuntu/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/ubuntu/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/ubuntu/esp32/lora_e32/build/partition_table/partition-table.bin /home/ubuntu/esp32/lora_e32/build/lora_e32.bin
+lora_e32.bin binary size 0x42220 bytes. Smallest app partition is 0x100000 bytes. 0xbdde0 bytes (74%) free.

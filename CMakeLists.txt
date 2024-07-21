@@ -6,3 +6,5 @@ cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(lora_e32)
+
+add_subdirectory(external/fff ${CMAKE_BINARY_DIR}/external/fff)

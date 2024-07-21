@@ -1,6 +1,13 @@
 {
     "files.associations": {
         "lora_e32.h": "c",
-        "stdio.h": "c"
-    }
+        "stdio.h": "c",
+        "esp_log.h": "c",
+        "freertos.h": "c",
+        "string.h": "c",
+        "wifi_scan.h": "c",
+        "cstdint": "c",
+        "compare": "c"
+    },
+    "C_Cpp.intelliSenseEngine": "Tag Parser"
 }
